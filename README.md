@@ -1,4 +1,4 @@
-# Optimizing-GAP-Inc.-s-Operations-with-Advanced-Data-Analytics
+# Optimizing GAP Operations with Advanced Data Analytics
 
 This project is a comprehensive case study on GAP Inc.'s transition towards data-driven decision making under the leadership of CEO Art Peck. The study focuses on three major brands under GAP Inc.: Gap, Banana Republic, and Old Navy, analyzing the strategic approaches, challenges, and outcomes of implementing data-driven strategies to combat declining sales and enhance customer experience.
 
