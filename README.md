@@ -1,8 +1,35 @@
 # Optimizing-GAP-Inc.-s-Operations-with-Advanced-Data-Analytics
 
-## Introduction
+This project is a comprehensive case study on GAP Inc.'s transition towards data-driven decision making under the leadership of CEO Art Peck. The study focuses on three major brands under GAP Inc.: Gap, Banana Republic, and Old Navy, analyzing the strategic approaches, challenges, and outcomes of implementing data-driven strategies to combat declining sales and enhance customer experience.
 
-This project is a comprehensive case study on GAP Inc.'s transition towards data-driven decision making under the leadership of CEO Art Peck. The study focuses on three major brands under GAP Inc.: Gap, Banana Republic, and Old Navy, analyzing the strategic approaches, challenges, and outcomes of implementing data-driven strategies to combat declining sales and enhance customer experience. This case study delves into the following key aspects:
+## Contents
+
+1. **PowerPoint Presentation (PPT)**
+2. **Executive Summary**
+3. **Jupyter Notebooks**
+
+### Jupyter Notebooks
+
+The Jupyter notebooks contain detailed analysis at the code level. The names and details of the Python files are as follows:
+
+- **Social_Media_Analysis_Reddit.ipynb:** This file contains code for sentiment analysis from Reddit.
+- **Google_Trends_Analysis.ipynb:** This file contains code for obtaining Google Trends data.
+- **GAP_Reviews_Data_Mining.ipynb:** This file contains code for keyword analysis, opinion analysis of GAP reviews from the GAP website.
+  - **Instructions:**
+    1. Run the scraping code to generate a CSV file automatically.
+    2. The code will read the generated CSV and perform text mining analysis.
+- **amazon_hoodie_best_sellers.ipynb:** This file contains a regression model for predicting best-seller hoodie rankings on Amazon.
+- **trustpilot_reviews.ipynb:** This file contains customer feedback analysis for Trustpilot reviews of Gap, Old Navy, and Banana Republic.
+- **combined_output.ipynb:** This file contains the combined output for trustpilot_reviews.ipynb.
+- **Sitejabber_last_12months_trend.ipynb:** This file contains the CSAT competitor trend analysis from Sitejabber reviews.
+
+### Executive Summary
+
+The Executive Summary contains the case introduction, analysis, process details, and conclusion in a summarized format.
+
+## Overview
+
+This case study delves into the following key aspects:
 
 1. **Data-Driven Creative Process at GAP Inc.**
 2. **Decision-Making Approaches**
@@ -11,33 +38,6 @@ This project is a comprehensive case study on GAP Inc.'s transition towards data
 5. **Regression Modelling for Product Rankings**
 6. **Recommendations and Limitations**
 
-## Data-Driven Creative Process
-
-### Product 3.0
-
-Art Peck's strategic approach focused on growth, innovation, and digital initiatives. Key actions included:
-
-- Emphasizing digital and mobile e-commerce platforms.
-- Personalizing shopping experiences through customer data analysis.
-- Optimizing operations by shifting some manufacturing from Asia to the Caribbean.
-- Implementing email personalization and geosniffing.
-- Testing products and cutting development cycles.
-- Analyzing customer purchase data for informed decision-making.
-
-## Decision-Making Approaches
-
-The data-driven decision-making approach aimed to make the process more objective and consumer-focused. However, it also had its pros and cons:
-
-### Pros
-- Objective and consumer-focused decisions.
-- Ability to quickly adapt to market trends.
-- Catering to a broader audience by understanding specific needs.
-
-### Cons
-- Potential loss of creative vision.
-- Risk of alienating core customers loyal to original designs.
-
-**Recommendation:** A hybrid model where data informs creative decisions to balance objectivity with creativity.
 
 ## Analysis Approach
 
@@ -48,7 +48,7 @@ The data-driven decision-making approach aimed to make the process more objectiv
 - Company Websites
 - Consumer Behavior Data
 
-### Analysis Techniques
+### Analysis Techniques Utilised
 - Text Analysis
 - Time Series Analysis
 - Sentiment Analysis
@@ -105,4 +105,3 @@ The regression model aimed to predict best-seller hoodie rankings on Amazon base
 ## Conclusion
 
 The case study concludes that while all three brands can benefit from a big data approach, the application and focus might differ based on their target audience, price range, and style. A balanced approach integrating data-driven insights with creative decisions is recommended for optimal results.
-
